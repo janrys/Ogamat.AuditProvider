@@ -16,6 +16,7 @@ Write your own implementation of Ogamat.AuditProvider.AuditProvider class. You n
 
 Add methods for logging specififc events. Example:
 
+```csharp
     public class SampleProvider : AuditProvider
     {
         public SampleProvider(SamplePolicy policy)
@@ -33,10 +34,12 @@ Add methods for logging specififc events. Example:
             ReportAudit(2, true, instanceId);
         }
     }
+```
 
 
 Security event source registration:
 
+```csharp
     EventSourceInstaller.InstallSecurityEventSource(
                     EventLogName,
                     null,
@@ -44,6 +47,7 @@ Security event source registration:
                     null,                    
                     Assembly.GetEntryAssembly().Location,
                     false);
+```
 
 You need to set special policies to use security event log (use secpol.msc Microsoft Management Console):
 
