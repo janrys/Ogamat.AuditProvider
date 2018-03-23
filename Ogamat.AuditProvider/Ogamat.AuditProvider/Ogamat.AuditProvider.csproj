@@ -52,5 +52,8 @@
     <Compile Include="SourceNameValidator.cs" />
     <Compile Include="Win32.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Ogamat.AuditProvider.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

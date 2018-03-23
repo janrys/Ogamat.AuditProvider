@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Ogamat.AuditProvider")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription(".Net audit provider for managing and logging into windows event logs (security log, application log)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ogamat (Jan Rys)")]
 [assembly: AssemblyProduct("Ogamat.AuditProvider")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

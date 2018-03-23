@@ -1,6 +1,9 @@
 # Ogamat.AuditProvider
 .Net audit provider for managing and logging into windows event logs (security log, application log)
 
+## Nuget
+[Nuget Ogamat.AuditProvider](https://www.nuget.org/packages/Ogamat.AuditProvider)
+
 ## How-to:
 
 Write your own implementation of Ogamat.AuditProvider.AuditProvider class. You need to provide
